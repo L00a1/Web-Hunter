@@ -129,13 +129,42 @@ sudo apt install sqlmap wfuzz xsrfprobe
 ```
 
 ### 📥 Installation:
-```bash
-git clone <repository-url>
-cd Web-Hunter
-python3 web_hunter.py
-```
+To install Web-Hunter, follow these steps:
 
-### ▶️ Usage:
+1. **Clone the Repository:**
+   First, clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/Web-Hunter.git
+   ```
+
+2. **Navigate to the Project Directory:**
+   Change into the project directory:
+   ```bash
+   cd Web-Hunter
+   ```
+
+3. **Install Dependencies:**
+   Ensure the required tools (`sqlmap`, `wfuzz`, and `xsrfprobe`) are installed using the following command:
+   ```bash
+   sudo apt update && sudo apt install sqlmap wfuzz xsrfprobe
+   ```
+
+4. **Run the Application:**
+   Execute the Web-Hunter script:
+   ```bash
+   python3 web_hunter.py
+   ```
+
+### 📂 Usage:
+After installation, follow the instructions below to use Web-Hunter:
+
+1. Enter the target URL for scanning.
+2. Select a scan type from the options:
+   - **1. SQLi**
+   - **2. XSS**
+   - **3. CSRF**
+   - **4. All** (to run all scan types)
+
 ```text
 Enter target URL: http://example.com
 Select scan type: 
