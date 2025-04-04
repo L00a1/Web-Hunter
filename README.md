@@ -149,4 +149,4 @@ Select scan type:
 
 ## 📄 License
 
-MIT © [Your Name]
+MIT © [Loai-R-Saadia]
